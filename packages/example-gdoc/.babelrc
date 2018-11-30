@@ -1,0 +1,7 @@
+{
+  "presets": ["gas", "@babel/react", "@babel/env"],
+  "plugins": [
+    "@babel/transform-object-assign",
+    "@babel/transform-arrow-functions"
+  ]
+}

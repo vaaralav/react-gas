@@ -1,0 +1,23 @@
+{
+  "name": "@react-gas/gdoc",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.6.0"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "react-reconciler": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-spread": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-preset-es3": "^1.0.1"
+  },
+  "scripts": {
+    "build": "babel . --out-dir ./dist"
+  }
+}
